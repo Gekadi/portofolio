@@ -44,6 +44,12 @@
   align-items: center;
   display: flex;
 }
-.empat {
-  
+
+.navbar-bawah {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-1 {
+  margin: 8px 160px;
 }
