@@ -63,7 +63,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 40px;
 }
 .garis {
   width: 1px;
@@ -120,3 +119,14 @@ margin:0px 20px;
   align-items: center;
   justify-content: center;
 }
+.banner {
+  float: right;
+  padding: 160px 160px;
+}
+.banner.hp {
+  padding: 160px 160px;
+  text-align: center;
+  align-items: center;
+}
+
+
