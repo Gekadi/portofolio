@@ -161,3 +161,16 @@ h1 .bold {
   line-height: 72px;
   letter-spacing: -0.96px;
 }
+.banner {
+  background-color: linear-gradient(91deg, #211C24 0.64%, #211C24 101%);
+}
+.banner-deskripsi .cta {
+display: inline-block;
+padding: 1rem 5rem;
+border-radius: 6px;
+background-color: linear-gradient(91deg, #211C24 0.64%, #211C24 101%);
+color: #fff;
+outline-color: #fff;
+outline-style: solid;
+text-decoration: none;
+}
