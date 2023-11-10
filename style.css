@@ -152,6 +152,7 @@ font-weight: 200;
 line-height: 72px; /* 75% */
 letter-spacing: -0.96px;
 color: #fff;
+
 }
 h1 .bold {
   font-family: SF Pro Display;
@@ -160,9 +161,6 @@ h1 .bold {
   font-weight: 600;
   line-height: 72px;
   letter-spacing: -0.96px;
-}
-.banner {
-  background-color: linear-gradient(91deg, #211C24 0.64%, #211C24 101%);
 }
 .banner-deskripsi .cta {
 display: inline-block;
@@ -173,4 +171,5 @@ color: #fff;
 outline-color: #fff;
 outline-style: solid;
 text-decoration: none;
+margin-top: 24px;
 }
