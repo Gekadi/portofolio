@@ -1,3 +1,9 @@
+/* reset default, biar ga ada jarak minggir */
+body{
+  margin: 0;
+  padding: 0;
+}
+/* bagian navbar */
 .navbar-atas {
   margin: 16px 160px;
   display: flex;
@@ -145,7 +151,7 @@ margin:0px 20px;
   color: #909090;
 }
 h1 {
-font-family: SF Pro Display;
+font-family: 'Roboto', sans-serif;
 font-size: 96px;
 font-style: normal;
 font-weight: 200;
@@ -155,7 +161,7 @@ color: #fff;
 
 }
 h1 .bold {
-  font-family: SF Pro Display;
+  font-family: 'Roboto', sans-serif;
   font-size: 96px;
   font-style: normal;
   font-weight: 600;
@@ -173,16 +179,193 @@ outline-style: solid;
 text-decoration: none;
 margin-top: 24px;
 }
+/* bagian playstation */
 .playstation {
   float: left;
   width: 513px;
   height: 343px;
   margin-right: 10px;
+  color: #909090;
 }
 .banner-bawah.h2 {
   text-align: center;
 }
+/* jangan lupa spesifik yah */
+/* refensi : https://www.petanikode.com/css-selektor/ */
+/* refensi : https://www.w3schools.com/css/css_pseudo_classes.asp */
+.banner-bawah h2 {
+  color: #000;
+  font-family: 'roboto', sans-serif;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.banner-bawah p {
+  color: #909090;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
 .isi {
   text-align: justify;
   padding: 100px;
+}
+
+/* jangan lupa komentar untuk setiap gabungin content yah baru */
+.hero {
+  width: 50%; /* harus atur width 100% agar memenuhi layar */
+  display: flex;
+  align-items: center; /* ini untuk buat dia ke tengah secara vertikal */
+  gap: 50px; /* ini untuk memberikan jarak di tengah antara img dan .desc */
+  background-color: #EDEDED;
+
+}
+/* img harus spesifik gek adi yah😊 */
+.hero img {
+  width: 100%;
+  max-width: 300px;
+}
+.desc {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+.hero h3 {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.hero.p {
+  color: #909090;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+/* visio */
+.vision {
+width: 50%;
+}
+.vision img {
+  width: 100%;
+  max-width: 300px;
+}
+.vision {
+  width: 50%;
+  display: flex;
+  align-items: center; 
+  gap: 50px;
+  background-color: #353535;;
+}
+.vision h4 {
+  color: #fff;
+  font-family: 'roboto' sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.vision p {
+  color: #909090;
+  font-family: 'roboto' sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.vision .text.pr {
+  color: var(--main-white, #FFF);
+font-family: 'roboto'sans-serif;
+font-size: 29px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+} 
+
+/* banner tengah adalah pemnbungkus wrap kiri dan kanan */
+.banner-tengah {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.banner-bawah {
+  display: flex;
+  flex-direction: row;
+}
+.wrap-kiri {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrap-kiri-bawah {
+  display: flex;
+  flex-direction: row;
+}
+.wrap-kanan {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  padding-top: 44px;
+  background-color:#EDEDED;;
+}
+.wrap-kanan img {
+  width: 50%;
+  max-width: 450px;
+}
+.wrap-kanan .tulisan {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /*agar dia vertikal */
+  padding-left: 56px;  
+}
+.wrap-kanan .tulisan h5 {
+  color: #000;
+  font-family: 'roboto' sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 56px;
+  margin: 0px;
+}
+.wrap-kanan .tulisan .air {
+  color: #000;
+  font-family:  'roboto' sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.wrap-kanan .tulisan p {
+  color: #909090;
+  font-family: 'roboto' sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 16px;
+}
+.tulisan .blok {
+  display: inline-block;
+  padding: 1rem 5rem;
+  border-radius: 6px;
+  background-color: linear-gradient(91deg, #211C24 0.64%, #211C24 101%);
+  color: #000;
+  outline-color: #000;
+  outline-style: solid;
+  text-decoration: none;
+  margin-top:16 px;
 }
