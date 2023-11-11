@@ -173,3 +173,16 @@ outline-style: solid;
 text-decoration: none;
 margin-top: 24px;
 }
+.playstation {
+  float: left;
+  width: 513px;
+  height: 343px;
+  margin-right: 10px;
+}
+.banner-bawah.h2 {
+  text-align: center;
+}
+.isi {
+  text-align: justify;
+  padding: 100px;
+}
