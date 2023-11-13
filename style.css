@@ -372,8 +372,16 @@ line-height: 40px;
 .banner-baru {
   display: flex;
   padding: 80px 160px;
+  flex-direction: column;
 }
-.banner-tengah .browse h6 {
+.banner-baru .banner-gambar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 80px 160px;
+}
+.banner-baru .browse h6 {
   color: var(--main-black, #000);
   font-family: SF Pro Display;
   font-size: 24px;
@@ -381,4 +389,112 @@ line-height: 40px;
   font-weight: 500;
   line-height: 32px;
   letter-spacing: 0.24px;
+}
+.banner-baru .tengah{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 128px;
+  min-width: 135px;
+  padding: 24px 52px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #EDEDED;
+  margin-right: 32px;
+}
+.banner-baru .tengah a {
+  text-decoration: none;
+  color: #000;
+}
+  .banner-baru .tengah-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 128px;
+  min-width: 135px;
+  padding: 24px 52px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #EDEDED;
+  margin-right: 32px;
+}
+.banner-baru .tengah-1 a {
+  text-decoration: none;
+  color: #000;
+}
+  .banner-baru .tengah-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 128px;
+  min-width: 135px;
+  padding: 24px 52px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #EDEDED;
+  margin-right: 32px;
+}
+.banner-baru .tengah-2 a {
+  text-decoration: none;
+  color: #000;
+}
+  .banner-baru .tengah-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 128px;
+  min-width: 135px;
+  padding: 24px 52px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #EDEDED;
+  margin-right: 32px;
+}
+.banner-baru .tengah-3 a {
+  text-decoration: none;
+  color: #000;
+}
+  .banner-baru .tengah-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 128px;
+  min-width: 135px;
+  padding: 24px 52px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #EDEDED;
+  margin-right: 32px;
+}
+.banner-baru .tengah-4 a {
+  text-decoration: none;
+  color: #000;
+}
+  .banner-baru .tengah-5 { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 128px;
+  min-width: 135px;
+  padding: 24px 52px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #EDEDED; 
+  margin-right: 32px;
+}
+.banner-baru .tengah-5 a {
+  text-decoration: none;
+  color: #000;
 }
