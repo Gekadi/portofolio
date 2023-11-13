@@ -382,3 +382,12 @@ line-height: 40px;
   line-height: 32px;
   letter-spacing: 0.24px;
 }
+.banner-baru .tengah {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
