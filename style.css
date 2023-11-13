@@ -304,8 +304,8 @@ line-height: 40px;
   display: flex;
   flex-direction: row;
 }
-.wrap-kiri {
-  width: 100%;
+.wrap-kiri{
+  width: 50%;/*pasti lupa ngubah ya*/  
   display: flex;
   flex-direction: column;
 }
@@ -367,5 +367,5 @@ line-height: 40px;
   outline-color: #000;
   outline-style: solid;
   text-decoration: none;
-  margin-top:16 px;
+  margin-top: 16px;
 }
