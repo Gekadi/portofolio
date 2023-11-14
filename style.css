@@ -817,3 +817,64 @@ line-height: 24px;
   font-weight: 300;
   line-height: 48px; 
 }
+.dekripsi-baru {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 80px 160px;
+  color: #000;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.dekripsibaru-gambar {
+  display: flex;
+  flex-direction: row;
+  padding: 32px 160px;
+}
+.dekripsibaru-gambar .baru-gambar-1 {
+  display: flex;
+  flex-direction: column;
+  width: 10%; 
+  justify-content: center;
+  align-items: center;
+  min-width: 135px;
+  padding: 24px 16px;
+  border-radius: 9px;
+  background-color: #EDEDED; 
+  margin-right: 32px; 
+}
+.dekripsibaru-gambar .baru-gambar-1 .kotak-baru {
+  display: inline-block;
+  padding: 12px 64px;
+  border-radius: 8px;
+  color: #fff;
+  outline-color: #000;
+  outline-style: solid;
+  text-decoration: none;
+  background-color: #000;
+}
+.dekripsibaru-gambar .baru-gambar-2 {
+  display: flex;
+  flex-direction: column;
+  width: 10%; 
+  justify-content: center;
+  align-items: center;
+  min-width: 135px;
+  padding: 24px 16px;
+  border-radius: 9px;
+  background-color: #EDEDED; 
+  margin-right: 32px; 
+}
+.dekripsibaru-gambar .baru-gambar-2 .kotak-baru-1 {
+  display: inline-block;
+  padding: 12px 64px;
+  border-radius: 8px;
+  color: #fff;
+  outline-color: #000;
+  outline-style: solid;
+  text-decoration: none;
+  background-color: #000;
+}
