@@ -713,8 +713,6 @@ line-height: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 371px;
-  width: 20%;
 }
 .gambar-tengah-1 .kotak-bawah {
   display: inline-block;
@@ -731,11 +729,6 @@ line-height: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 371px;
-  width: 20%;
-}
-.gambar-tengah .gambar-tengah-2 h9 {
-
 }
 .gambar-tengah-2 .kotak-bawah {
   display: inline-block;
