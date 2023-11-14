@@ -713,6 +713,7 @@ line-height: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 56px;
 }
 .gambar-tengah-1 .kotak-bawah {
   display: inline-block;
@@ -729,6 +730,7 @@ line-height: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 56px;
 }
 .gambar-tengah-2 .kotak-bawah {
   display: inline-block;
@@ -753,6 +755,8 @@ line-height: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #EAEAEA;
+  padding: 56px;
 }
 .gambar-tengah-3 .kotak-bawah {
   display: inline-block;
@@ -764,4 +768,52 @@ line-height: 40px;
   outline-style: solid;
   text-decoration: none;
   margin-top: 16px;
+  text-align: center;
+}
+.gambar-tengah .gambar-tengah-4 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color:#2C2C2C;
+  padding: 56px;
+}
+.gambar-tengah-4 .kotak-bawah {
+  display: inline-block;
+  padding: 16px 56px;
+  border-radius: 6px;
+  background-color: linear-gradient(91deg, #211C24 0.64%, #211C24 101%);
+  color: #fff;
+  outline-color: #fff;
+  outline-style: solid;
+  text-decoration: none;
+  margin-top: 16px;
+  text-align: center;
+}
+.gambar-tengah-4 .kotak-bawah p {
+  color: #909090;
+font-family: SF Pro Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+.gambar-tengah .gambar-tengah-4 h10 {
+  color: #fff;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px; 
+}
+.gambar-tengah  p {
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px; 
+}
+.gambar-tengah h9 {
+  color: #000;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px; 
 }
