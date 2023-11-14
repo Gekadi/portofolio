@@ -526,6 +526,11 @@ line-height: 40px;
   line-height: 32px;
   font-style: normal;
 }
+.gambar-awal {
+  display: flex;
+  flex-direction: row;
+  margin: 56px 160px;
+}
 .gambar-awal .gambar-1 {
   display: flex;
   flex-direction: column;
@@ -547,6 +552,199 @@ line-height: 40px;
   outline-color: #000;
   outline-style: solid;
   background-color: #000;
+  text-decoration: none;
+  margin-top: 16px;
+}
+.gambar-awal .gambar-2 {
+  display: flex;
+  flex-direction: column;
+  width: 10%; 
+  justify-content: center;
+  align-items: center;
+  min-width: 135px;
+  padding: 24px 16px;
+  border-radius: 9px;
+  background-color: #EDEDED; 
+  margin-right: 32px;
+}
+.gambar-2 .kotak-1 {
+  display: inline-block;
+  color: #FFF;
+  padding: 12px 64px;
+  border-radius: 9px;
+  background-color: linear-gradient(91deg, #211C24 0.64%, #211C24 101%);
+  outline-color: #000;
+  outline-style: solid;
+  background-color: #000;
+  text-decoration: none;
+  margin-top: 16px;
+}
+.gambar-awal .gambar-3 {
+  display: flex;
+  flex-direction: column;
+  width: 10%; 
+  justify-content: center;
+  align-items: center;
+  min-width: 135px;
+  padding: 24px 16px;
+  border-radius: 9px;
+  background-color: #EDEDED; 
+  margin-right: 32px
+}
+.gambar-3 .kotak-2 {
+  display: inline-block;
+  color: #FFF;
+  padding: 12px 64px;
+  border-radius: 9px;
+  background-color: linear-gradient(91deg, #211C24 0.64%, #211C24 101%);
+  outline-color: #000;
+  outline-style: solid;
+  background-color: #000;
+  text-decoration: none;
+  margin-top: 16px;
+}
+.gambar-awal .gambar-4 {
+  display: flex;
+  flex-direction: column;
+  width: 10%; 
+  justify-content: center;
+  align-items: center;
+  min-width: 135px;
+  padding: 24px 16px;
+  border-radius: 9px;
+  background-color: #EDEDED; 
+  margin-right: 32px
+}
+.gambar-awal .kotak-3 {
+  display: inline-block;
+  color: #FFF;
+  padding: 12px 64px;
+  border-radius: 9px;
+  background-color: linear-gradient(91deg, #211C24 0.64%, #211C24 101%);
+  outline-color: #000;
+  outline-style: solid;
+  background-color: #000;
+  text-decoration: none;
+  margin-top: 16px;
+}
+.gambar-awal-1 .gambar-5 {
+  display: flex;
+  flex-direction: column;
+  width: 10%; 
+  justify-content: center;
+  align-items: center;
+  min-width: 135px;
+  padding: 24px 16px;
+  border-radius: 9px;
+  background-color: #EDEDED; 
+  margin-right: 32px
+}
+.gambar-awal-1 .kotak-4 {
+  display: inline-block;
+  color: #FFF;
+  padding: 12px 64px;
+  border-radius: 9px;
+  background-color: linear-gradient(91deg, #211C24 0.64%, #211C24 101%);
+  outline-color: #000;
+  outline-style: solid;
+  background-color: #000;
+  text-decoration: none;
+  margin-top: 16px;
+}
+.gambar-awal-1 {
+  display: flex;
+  flex-direction: row;
+  margin: 56px 160px;
+}
+.gambar-awal-1 .gambar-6 {
+  display: flex;
+  flex-direction: column;
+  width: 10%; 
+  justify-content: center;
+  align-items: center;
+  min-width: 135px;
+  padding: 24px 16px;
+  border-radius: 9px;
+  background-color: #EDEDED; 
+  margin-right: 32px
+}
+.gambar-awal-1 .kotak-5 {
+  display: inline-block;
+  color: #FFF;
+  padding: 12px 64px;
+  border-radius: 9px;
+  background-color: linear-gradient(91deg, #211C24 0.64%, #211C24 101%);
+  outline-color: #000;
+  outline-style: solid;
+  background-color: #000;
+  text-decoration: none;
+  margin-top: 16px;
+}
+.gambar-awal-1 .gambar-7 {
+  display: flex;
+  flex-direction: column;
+  width: 10%; 
+  justify-content: center;
+  align-items: center;
+  min-width: 135px;
+  padding: 24px 16px;
+  border-radius: 9px;
+  background-color: #EDEDED; 
+  margin-right: 32px
+}
+.gambar-awal-1 .gambar-8 {
+  display: flex;
+  flex-direction: column;
+  width: 10%; 
+  justify-content: center;
+  align-items: center;
+  min-width: 135px;
+  padding: 24px 16px;
+  border-radius: 9px;
+  background-color: #EDEDED; 
+  margin-right: 32px
+}
+.gambar-tengah {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.gambar-tengah .gambar-tengah-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 371px;
+  width: 20%;
+}
+.gambar-tengah-1 .kotak-bawah {
+  display: inline-block;
+  padding: 16px 56px;
+  border-radius: 6px;
+  background-color: linear-gradient(91deg, #211C24 0.64%, #211C24 101%);
+  color: #000;
+  outline-color: #000;
+  outline-style: solid;
+  text-decoration: none;
+  margin-top: 16px;
+}
+.gambar-tengah .gambar-tengah-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 371px;
+  width: 20%;
+}
+.gambar-tengah .gambar-tengah-2 h9 {
+
+}
+.gambar-tengah-2 .kotak-bawah {
+  display: inline-block;
+  padding: 16px 56px;
+  border-radius: 6px;
+  background-color: linear-gradient(91deg, #211C24 0.64%, #211C24 101%);
+  color: #000;
+  outline-color: #000;
+  outline-style: solid;
   text-decoration: none;
   margin-top: 16px;
 }
